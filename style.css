@@ -101,5 +101,20 @@ h5{
 }
 #banner img{
     width: 100%;
-    background-color:#dae3e8;
+}
+#banner .banner-div{
+    position: relative;
+}
+#banner button{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    translate: -50% -50%;
+}
+.col-md-3{
+    overflow: hidden;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    
 }
