@@ -4,6 +4,7 @@ body{
     font-weight: 500;
     font-style: normal;
     word-spacing: 0.8rem;
+    color: #ffffff;
 }
 .container-fluid{
     padding: 0px 60px;
@@ -23,7 +24,6 @@ body{
     font-size: 30px;
 }
 h1{
-    color: #ffffff;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -31,14 +31,12 @@ h1{
     font-size: 60px;
 }
 h4{
-    color: #ffffff;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
 }
 h5{
-    color: #ffffff;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -63,6 +61,12 @@ h5{
 }
 .link:hover{
     text-decoration-color: #ffffff !important;
+}
+/* .link-black{
+    color: #ffffff !important;
+} */
+.link-black:hover{
+    text-decoration-color: #000000 !important;
 }
 .navbar{
     border-bottom: 0.5px solid #ffffff;
@@ -116,5 +120,19 @@ h5{
 }
 .zoom:hover{
     transform: scale(1.1);
-    
+}
+.banner-slide-text,
+.banner-slide-text a
+{
+    color: #000000 !important;
+    width: 25%;
+}
+.carousel-item{
+    position: relative;
+}
+.banner-slide-text{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    translate: -50% -50%;
 }
